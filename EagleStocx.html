@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eagle Stocx</title>
+  <style>
+
+.social-link {
+            display: inline-block;
+            margin-right: 50px;
+        }
+        .social-link img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .social {
+            display: inline-block;
+            margin-right: 50px;
+      
+        }
+        .social img {
+            width: 50px;
+            height: 50px;
+        }
+
+    body {
+      background: linear-gradient(to bottom, #a8cbfafb, #bbffca);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+
+    .image {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .text {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+     
+    }
+    
+    nav {
+      background-color: #666;
+      padding: 10px;
+      text-align: center;
+      
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    main {
+      font-family: Arial, sans-serif;
+      color: rgb(53, 51, 51);
+      padding: 20px;
+    }
+    
+    
+    footer {
+      background-color: #333;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Media Queries */
+    @media screen and (max-width: 768px) {
+      header {
+        padding: 10px;
+      }
+      
+      .container {
+        padding: 10px;
+      }
+
+      .image {
+        margin-bottom: 5px;
+      }
+      .text {
+        margin-bottom: 10px;
+      }
+
+      nav {
+        display: block;
+      }
+      
+      nav a {
+        
+        margin: 5px 10;
+      }
+      
+      main {
+        padding: 10px;
+      }
+      
+      footer {
+        padding: 10px;
+      }
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 5px;
+      }
+    }
+    
+    /* Responsive Images */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Sliding Image Carousel */
+    .carousel-container {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    .carousel-container .carousel-slide {
+      display: flex;
+      width: 200%;
+      animation: slideAnimation 20s linear infinite;
+    }
+
+    .carousel-container .carousel-slide img {
+      width: 20%;
+    }
+
+    /* Animation */
+    @keyframes slideAnimation {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+  </style>
+</head>
+<body> 
+  <header>
+ <div class="social">
+    <a class="social" href="https://instagram.com/eaglestocx?igshid=ZGUzMzM3NWJiOQ==">
+        <img src="logo.jpg" alt="instagram">
+    </a>
+ 
+    <h1>Eagle Stocx </h1>
+  </header>
+  
+  
+
+  <nav>
+    <a href="EagleStocx.html">Home</a>
+    <a href="aboutus.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+  <he>
+
+   
+
+      <div class="container">
+        <div class="image">
+          <img src="trading_image1.jpg" alt="Image 1">
+        </div>
+        <div class="text">
+          
+          <p>
+            Tip 1 never go against the trend Trend is your friend
+          </p>
+        </div>
+    
+        <div class="image">
+          <img src="trading_image2.jpg" alt="Image 2">
+        </div>
+        <div class="text">
+         
+          <p>
+        coming soon !!!!
+          </p>
+        </div>
+    
+        <div class="image">
+          
+          <img src="trading_image3.jpg" alt="Image 3">
+      
+        </div>
+        <div class="text">
+          <a class="social-link" href="https://drive.google.com/file/d/1KnU93LoBS8CbBOg-Gg64-oxb8PvsCoWm/view?usp=drivesdk ">
+          <p>
+           Click to download chart pattern book part 1 for free
+          </p>
+        </a>
+        </div>
+      </div>
+
+
+  <main>
+   
+   <h2> Visit the Services tab for all offers  </h2>
+
+    <!-- Sliding Image Carousel -->
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="trading_image3.jpg" alt="Trading Image 3">
+        <img src="trading_image4.jpg" alt="Trading Image 4">
+        <img src="trading_image5.jpg" alt="Trading Image 5">
+        <img src="trading_image3.jpg" alt="Trading Image 3">
+        <img src="trading_image4.jpg" alt="Trading Image 4">
+      </div>
+    </div>
+<footer>
+    <p>Thanks for visting 
+      <a class="social-link" href="#">
+        <p>
+         we are not sebi registerd everything is for educational purpose
+        </p>
+
+
+      <div class="social-links">
+        <a class="social-link" href="https://instagram.com/eaglestocx?igshid=ZGUzMzM3NWJiOQ==">
+            <img src="instagram.png" alt="instagram">
+        </a>
+        <a class="social-link" href="https://t.me/eaglestocx">
+            <img src="teligram.png" alt="teligram">
+        </a>
+
+        <a class="social-link" href="comming soon">
+            <img src="youtube.png" alt="youtube">
+        </a>
+        <!-- Add more social links here -->
+    </div>
+  </footer>
+</body>
+</html>
